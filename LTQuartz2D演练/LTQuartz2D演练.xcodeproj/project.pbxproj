@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3C8CAA1D362A180015923D /* ImageWatermarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C8CA91D362A180015923D /* ImageWatermarkViewController.m */; };
+		6B3C8CAE1D3632C80015923D /* ImageClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C8CAD1D3632C80015923D /* ImageClipViewController.m */; };
+		6B3C8CB21D3641530015923D /* UIImage+LTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C8CB11D3641530015923D /* UIImage+LTImage.m */; };
+		6B3C8CB81D3642890015923D /* ScreenCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C8CB71D3642890015923D /* ScreenCaptureViewController.m */; };
+		6B3C8CBC1D364D4F0015923D /* ImageCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C8CBB1D364D4F0015923D /* ImageCaptureViewController.m */; };
 		6B3F537E1D3480C80046E8B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F537D1D3480C80046E8B3 /* main.m */; };
 		6B3F53811D3480C80046E8B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F53801D3480C80046E8B3 /* AppDelegate.m */; };
 		6B3F53841D3480C80046E8B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F53831D3480C80046E8B3 /* ViewController.m */; };
@@ -28,6 +33,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B3C8CA81D362A180015923D /* ImageWatermarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWatermarkViewController.h; sourceTree = "<group>"; };
+		6B3C8CA91D362A180015923D /* ImageWatermarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWatermarkViewController.m; sourceTree = "<group>"; };
+		6B3C8CAC1D3632C80015923D /* ImageClipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageClipViewController.h; sourceTree = "<group>"; };
+		6B3C8CAD1D3632C80015923D /* ImageClipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageClipViewController.m; sourceTree = "<group>"; };
+		6B3C8CB01D3641530015923D /* UIImage+LTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LTImage.h"; sourceTree = "<group>"; };
+		6B3C8CB11D3641530015923D /* UIImage+LTImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LTImage.m"; sourceTree = "<group>"; };
+		6B3C8CB61D3642890015923D /* ScreenCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCaptureViewController.h; sourceTree = "<group>"; };
+		6B3C8CB71D3642890015923D /* ScreenCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCaptureViewController.m; sourceTree = "<group>"; };
+		6B3C8CBA1D364D4F0015923D /* ImageCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCaptureViewController.h; sourceTree = "<group>"; };
+		6B3C8CBB1D364D4F0015923D /* ImageCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCaptureViewController.m; sourceTree = "<group>"; };
 		6B3F53791D3480C80046E8B3 /* LTQuartz2D演练.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LTQuartz2D演练.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3F537D1D3480C80046E8B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B3F537F1D3480C80046E8B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +90,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B3C8CA71D3629700015923D /* 图片水印 */ = {
+			isa = PBXGroup;
+			children = (
+				6B3C8CA81D362A180015923D /* ImageWatermarkViewController.h */,
+				6B3C8CA91D362A180015923D /* ImageWatermarkViewController.m */,
+			);
+			path = "图片水印";
+			sourceTree = "<group>";
+		};
+		6B3C8CAB1D36327E0015923D /* 图片裁剪 */ = {
+			isa = PBXGroup;
+			children = (
+				6B3C8CAC1D3632C80015923D /* ImageClipViewController.h */,
+				6B3C8CAD1D3632C80015923D /* ImageClipViewController.m */,
+			);
+			path = "图片裁剪";
+			sourceTree = "<group>";
+		};
+		6B3C8CAF1D363B980015923D /* 屏幕截取 */ = {
+			isa = PBXGroup;
+			children = (
+				6B3C8CB01D3641530015923D /* UIImage+LTImage.h */,
+				6B3C8CB11D3641530015923D /* UIImage+LTImage.m */,
+				6B3C8CB61D3642890015923D /* ScreenCaptureViewController.h */,
+				6B3C8CB71D3642890015923D /* ScreenCaptureViewController.m */,
+			);
+			path = "屏幕截取";
+			sourceTree = "<group>";
+		};
+		6B3C8CB91D364CF40015923D /* 图片截取 */ = {
+			isa = PBXGroup;
+			children = (
+				6B3C8CBA1D364D4F0015923D /* ImageCaptureViewController.h */,
+				6B3C8CBB1D364D4F0015923D /* ImageCaptureViewController.m */,
+			);
+			path = "图片截取";
+			sourceTree = "<group>";
+		};
 		6B3F53701D3480C80046E8B3 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +152,10 @@
 				6B3F53821D3480C80046E8B3 /* ViewController.h */,
 				6B3F53831D3480C80046E8B3 /* ViewController.m */,
 				6B3F53851D3480C80046E8B3 /* Main.storyboard */,
+				6B3C8CB91D364CF40015923D /* 图片截取 */,
+				6B3C8CAF1D363B980015923D /* 屏幕截取 */,
+				6B3C8CAB1D36327E0015923D /* 图片裁剪 */,
+				6B3C8CA71D3629700015923D /* 图片水印 */,
 				6B3F53B91D3501A30046E8B3 /* 文字和图片 */,
 				6B3F53B21D34F7930046E8B3 /* 柱形图 */,
 				6B3F53AB1D34F40F0046E8B3 /* 饼图 */,
@@ -260,16 +317,21 @@
 				6B3F53B11D34F4370046E8B3 /* PieViewController.m in Sources */,
 				6B3F53A31D34E2540046E8B3 /* ShapeViewController.m in Sources */,
 				6B3F53841D3480C80046E8B3 /* ViewController.m in Sources */,
+				6B3C8CB81D3642890015923D /* ScreenCaptureViewController.m in Sources */,
 				6B3F53AA1D34E7390046E8B3 /* ProgressView.m in Sources */,
+				6B3C8CBC1D364D4F0015923D /* ImageCaptureViewController.m in Sources */,
+				6B3C8CAE1D3632C80015923D /* ImageClipViewController.m in Sources */,
 				6B3F53BF1D3501E80046E8B3 /* TextAndImageViewController.m in Sources */,
 				6B3F53811D3480C80046E8B3 /* AppDelegate.m in Sources */,
 				6B3F53BC1D3501D10046E8B3 /* TextAndImageView.m in Sources */,
 				6B3F53991D34D0C70046E8B3 /* LineViewController.m in Sources */,
 				6B3F537E1D3480C80046E8B3 /* main.m in Sources */,
+				6B3C8CAA1D362A180015923D /* ImageWatermarkViewController.m in Sources */,
 				6B3F53A01D34E2330046E8B3 /* ShapeView.m in Sources */,
 				6B3F539C1D34D4500046E8B3 /* LineView.m in Sources */,
 				6B3F53B81D34F7CC0046E8B3 /* BarView.m in Sources */,
 				6B3F53A71D34E71C0046E8B3 /* ProgressViewController.m in Sources */,
+				6B3C8CB21D3641530015923D /* UIImage+LTImage.m in Sources */,
 				6B3F53B51D34F7B50046E8B3 /* BarViewController.m in Sources */,
 				6B3F53AE1D34F4270046E8B3 /* PieView.m in Sources */,
 			);
@@ -422,6 +484,7 @@
 				6B3F53921D3480C80046E8B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,6 +13,10 @@
 #import "PieViewController.h"
 #import "BarViewController.h"
 #import "TextAndImageViewController.h"
+#import "ImageWatermarkViewController.h"
+#import "ImageClipViewController.h"
+#import "ScreenCaptureViewController.h"
+#import "ImageCaptureViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 /** obj*/
@@ -35,7 +39,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 8;
+    return 20;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -64,6 +68,18 @@
         case 5:
             cell.textLabel.text = @"绘制文字和图片";
             break;
+        case 6:
+            cell.textLabel.text = @"图片水印";
+            break;
+        case 7:
+            cell.textLabel.text = @"图片裁剪";
+            break;
+        case 8:
+            cell.textLabel.text = @"屏幕截屏";
+            break;
+        case 9:
+            cell.textLabel.text = @"图片截取";
+            break;
 
         default:
             break;
@@ -86,7 +102,16 @@
         [ self.navigationController  pushViewController:[BarViewController new] animated:YES];
     }else if (indexPath.row == 5){
         [ self.navigationController  pushViewController:[TextAndImageViewController new] animated:YES];
+    }else if (indexPath.row == 6){
+        [ self.navigationController  pushViewController:[ImageWatermarkViewController new] animated:YES];
+    }else if (indexPath.row == 7){
+        [ self.navigationController  pushViewController:[ImageClipViewController new] animated:YES];
+    }else if (indexPath.row == 8){
+        [ self.navigationController  pushViewController:[ScreenCaptureViewController new] animated:YES];
+    }else if (indexPath.row == 9){
+        [ self.navigationController  pushViewController:[ImageCaptureViewController new] animated:YES];
     }
+
 
 
 }

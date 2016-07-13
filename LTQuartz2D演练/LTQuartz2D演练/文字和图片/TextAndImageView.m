@@ -53,7 +53,7 @@
 
  // 绘制文字
 
- NSString *str = @"asfdsfsdf";
+ NSString *str = @"测试用的，哈哈哈哈.......";
 
 
  // 文字的起点
@@ -65,7 +65,7 @@
  textDict[NSForegroundColorAttributeName] = [UIColor redColor];
 
  // 设置文字字体
- textDict[NSFontAttributeName] = [UIFont systemFontOfSize:30];
+ textDict[NSFontAttributeName] = [UIFont systemFontOfSize:40];
 
  // 设置文字的空心颜色和宽度
 
