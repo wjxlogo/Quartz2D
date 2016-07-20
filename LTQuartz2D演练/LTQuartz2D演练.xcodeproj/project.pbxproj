@@ -33,6 +33,7 @@
 		6B99D8DC1D3F512100B4B9AB /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B99D8DB1D3F512100B4B9AB /* LockViewController.m */; };
 		6B99D8DF1D3F517A00B4B9AB /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B99D8DE1D3F517A00B4B9AB /* LockView.m */; };
 		6B99D8E21D3F5D5400B4B9AB /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B99D8E11D3F5D5400B4B9AB /* VCView.m */; };
+		6B99D8E51D3F687300B4B9AB /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B99D8E41D3F687300B4B9AB /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		6B99D8DE1D3F517A00B4B9AB /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
 		6B99D8E01D3F5D5400B4B9AB /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
 		6B99D8E11D3F5D5400B4B9AB /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		6B99D8E41D3F687300B4B9AB /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		6B3F537B1D3480C80046E8B3 /* LTQuartz2D演练 */ = {
 			isa = PBXGroup;
 			children = (
+				6B99D8E31D3F687300B4B9AB /* gif */,
 				6B3F537F1D3480C80046E8B3 /* AppDelegate.h */,
 				6B3F53801D3480C80046E8B3 /* AppDelegate.m */,
 				6B3F53821D3480C80046E8B3 /* ViewController.h */,
@@ -267,6 +270,14 @@
 			path = "手势解锁";
 			sourceTree = "<group>";
 		};
+		6B99D8E31D3F687300B4B9AB /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				6B99D8E41D3F687300B4B9AB /* Untitled.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B3F538C1D3480C80046E8B3 /* LaunchScreen.storyboard in Resources */,
+				6B99D8E51D3F687300B4B9AB /* Untitled.gif in Resources */,
 				6B3F53891D3480C80046E8B3 /* Assets.xcassets in Resources */,
 				6B3F53871D3480C80046E8B3 /* Main.storyboard in Resources */,
 			);
