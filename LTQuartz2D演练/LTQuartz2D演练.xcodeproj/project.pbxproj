@@ -30,6 +30,9 @@
 		6B3F53B81D34F7CC0046E8B3 /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F53B71D34F7CC0046E8B3 /* BarView.m */; };
 		6B3F53BC1D3501D10046E8B3 /* TextAndImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F53BB1D3501D10046E8B3 /* TextAndImageView.m */; };
 		6B3F53BF1D3501E80046E8B3 /* TextAndImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F53BE1D3501E80046E8B3 /* TextAndImageViewController.m */; };
+		6B99D8DC1D3F512100B4B9AB /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B99D8DB1D3F512100B4B9AB /* LockViewController.m */; };
+		6B99D8DF1D3F517A00B4B9AB /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B99D8DE1D3F517A00B4B9AB /* LockView.m */; };
+		6B99D8E21D3F5D5400B4B9AB /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B99D8E11D3F5D5400B4B9AB /* VCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +80,12 @@
 		6B3F53BB1D3501D10046E8B3 /* TextAndImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAndImageView.m; sourceTree = "<group>"; };
 		6B3F53BD1D3501E80046E8B3 /* TextAndImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAndImageViewController.h; sourceTree = "<group>"; };
 		6B3F53BE1D3501E80046E8B3 /* TextAndImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAndImageViewController.m; sourceTree = "<group>"; };
+		6B99D8DA1D3F512100B4B9AB /* LockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		6B99D8DB1D3F512100B4B9AB /* LockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		6B99D8DD1D3F517A00B4B9AB /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		6B99D8DE1D3F517A00B4B9AB /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+		6B99D8E01D3F5D5400B4B9AB /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		6B99D8E11D3F5D5400B4B9AB /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +161,7 @@
 				6B3F53821D3480C80046E8B3 /* ViewController.h */,
 				6B3F53831D3480C80046E8B3 /* ViewController.m */,
 				6B3F53851D3480C80046E8B3 /* Main.storyboard */,
+				6B99D8D91D3F50A600B4B9AB /* 手势解锁 */,
 				6B3C8CB91D364CF40015923D /* 图片截取 */,
 				6B3C8CAF1D363B980015923D /* 屏幕截取 */,
 				6B3C8CAB1D36327E0015923D /* 图片裁剪 */,
@@ -244,6 +254,19 @@
 			path = "文字和图片";
 			sourceTree = "<group>";
 		};
+		6B99D8D91D3F50A600B4B9AB /* 手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				6B99D8DA1D3F512100B4B9AB /* LockViewController.h */,
+				6B99D8DB1D3F512100B4B9AB /* LockViewController.m */,
+				6B99D8E01D3F5D5400B4B9AB /* VCView.h */,
+				6B99D8E11D3F5D5400B4B9AB /* VCView.m */,
+				6B99D8DD1D3F517A00B4B9AB /* LockView.h */,
+				6B99D8DE1D3F517A00B4B9AB /* LockView.m */,
+			);
+			path = "手势解锁";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,12 +338,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B3F53B11D34F4370046E8B3 /* PieViewController.m in Sources */,
+				6B99D8E21D3F5D5400B4B9AB /* VCView.m in Sources */,
 				6B3F53A31D34E2540046E8B3 /* ShapeViewController.m in Sources */,
 				6B3F53841D3480C80046E8B3 /* ViewController.m in Sources */,
 				6B3C8CB81D3642890015923D /* ScreenCaptureViewController.m in Sources */,
 				6B3F53AA1D34E7390046E8B3 /* ProgressView.m in Sources */,
 				6B3C8CBC1D364D4F0015923D /* ImageCaptureViewController.m in Sources */,
 				6B3C8CAE1D3632C80015923D /* ImageClipViewController.m in Sources */,
+				6B99D8DF1D3F517A00B4B9AB /* LockView.m in Sources */,
 				6B3F53BF1D3501E80046E8B3 /* TextAndImageViewController.m in Sources */,
 				6B3F53811D3480C80046E8B3 /* AppDelegate.m in Sources */,
 				6B3F53BC1D3501D10046E8B3 /* TextAndImageView.m in Sources */,
@@ -333,6 +358,7 @@
 				6B3F53A71D34E71C0046E8B3 /* ProgressViewController.m in Sources */,
 				6B3C8CB21D3641530015923D /* UIImage+LTImage.m in Sources */,
 				6B3F53B51D34F7B50046E8B3 /* BarViewController.m in Sources */,
+				6B99D8DC1D3F512100B4B9AB /* LockViewController.m in Sources */,
 				6B3F53AE1D34F4270046E8B3 /* PieView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

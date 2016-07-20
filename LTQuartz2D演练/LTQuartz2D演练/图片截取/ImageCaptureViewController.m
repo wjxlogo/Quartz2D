@@ -76,6 +76,8 @@
 
         // 生成一张新的图片
         self.imageView.image = UIGraphicsGetImageFromCurrentImageContext();
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        NSLog(@"%s,%f",__FUNCTION__,image.size.width);
 
 
         // 关闭上下文

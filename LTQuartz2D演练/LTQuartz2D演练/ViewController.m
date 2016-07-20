@@ -17,6 +17,7 @@
 #import "ImageClipViewController.h"
 #import "ScreenCaptureViewController.h"
 #import "ImageCaptureViewController.h"
+#import "LockViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 /** obj*/
@@ -80,6 +81,9 @@
         case 9:
             cell.textLabel.text = @"图片截取";
             break;
+        case 10:
+            cell.textLabel.text = @"手势解锁";
+            break;
 
         default:
             break;
@@ -110,6 +114,8 @@
         [ self.navigationController  pushViewController:[ScreenCaptureViewController new] animated:YES];
     }else if (indexPath.row == 9){
         [ self.navigationController  pushViewController:[ImageCaptureViewController new] animated:YES];
+    }else if (indexPath.row == 10){
+        [ self.navigationController  pushViewController:[LockViewController new] animated:YES];
     }
 
 
